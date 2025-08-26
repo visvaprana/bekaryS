@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-content .dashboard-menu .nav .nav-item .nav-link{
+height: auto;
+}
+.page-content .dashboard-menu ul li a {
+            font-size: 16px;
+            color: #7E7E7E;
+            padding: 15px 30px;
+            font-family: "Quicksand", sans-serif;
+            font-weight: 700;
+        }
+        .page-content .dashboard-menu ul li {
+            position: relative;
+            border-radius: 10px;
+            border: 1px solid #ececec;
+            border-radius: 10px;
+        }
+        .page-content .dashboard-menu ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        .page-content .dashboard-menu ul li a i {
+            color: #7E7E7E;
+            font-size: 19px;
+            opacity: 0.6;
+            margin-right: 10px;
+        }
+        .page-content .dashboard-menu ul li a.active i{
+            color: #fff;
+            opacity: 1; 
+        }
+        .page-content .dashboard-menu ul li a.active {
+    color: #fff;
+    background-color: #978667;
+    border-radius: 10px;
+}
+.page-content .account .card {
+    border: 0;
+}
+.page-content .account .card .card-header {
+    border: 0;
+    background: none;
+}
+.page-content .account .card .card-header h3{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #978667;
+}
+.page-content .account .card .table > thead {
+    font-family: "Quicksand", sans-serif;
+    font-size: 17px;
+}
+.page-content .account .card table td, .account .card table th {
+    border: 0;
+}
+.page-content .account .card table th {
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+}
+.page-content .account .card table td{
+    color: #9babcd;
+}
+.page-content .account a{
+color: #978667;
+}
+.page-content .account input {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    height: 64px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+.page-content .contact-from-area .contact-form-style button {
+  font-size: 17px;
+    font-weight: 500;
+    padding: 14px 90px;
+    color: #ffffff;
+    border: none;
+    background-color: #E81F76;
+    border-radius: 8px;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.page-content{
+    background-color: #FFF5EB;
+    padding: 100px 0px;
+}
+.page-content .account input {
+    border: 1px solid #c7c7c7;
+    border-radius: 7px;
+    height: 44px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 13px;
+    font-size: 13px;
+    width: 100%;
+}
+.page-content .account input::placeholder {
+ color:black;
+ fotn-size:14px;
+}
+
+.page-content .account .card .card-header h3 {
+    font-weight: bold;
+    color: #351d4c;
+}
+.page-content .account .card-body p a {
+    color: #1054e6;
+    font-weight: 600;
+}
+.page-content button.submit, .page-content button[type='submit'] {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 40px;
+    color: #ffffff;
+    border: none;
+    background-color: #978667;
+    border: 1px solid #978667;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact-box-wrapper{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    background: #FFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.contact-body-section {
+    background-color: #FFF5EB;
+    padding:100px 0px;
+ 
+}
+.page-content .account label{
+    color: #343434;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.page-content .account .card-header h5{
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #978667;
+}
+.page-content .account .card-body  address{
+    color: #9babcd;
+}
+.page-content .account .card-body p {
+    color: #000000;
+    font-weight: 600;
+}
+.page-content .mar-top-page {
+    padding: 6% 0% 10% 0%;
+}
+
+/*login*/
+.tab-pane.login {
+    display: block;
+}
+
+/*register*/
+.tab-pane.register{
+    display: block;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .page-content .dashboard-menu ul li a {
+        font-size: 15px;
+        color: #7E7E7E;
+        padding: 15px 10px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+    }
+}
